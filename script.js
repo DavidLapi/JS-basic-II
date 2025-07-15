@@ -200,20 +200,46 @@ for (i of names) {
 //Ejercicio 15: Con un bucle while imprime en consola una lista del 1 al 5.
 
 //Escribe tu código aquí
-
+console.log("\nEjercicio 15: ");
+var i = 1
+while (i<=5) {
+    console.log(i);
+    i++;
+}
 
 //Ejercicio 16: Realiza el mismo ejercicio anterior pero con un bucle do while.
 
 //Escribe tu código aquí
-
+console.log("\nEjercicio 16: ");
+var i = 1;
+do {
+    console.log(i);
+    i++;
+} while(i<=5);
 
 //Ejercicio 17: Saludo Personalizado
 //Crea una función llamada saludar que tome un parámetro llamado nombre y devuelva un saludo personalizado. Luego, llama a la función con diferentes nombres y muestra el resultado en la consola.
 
 //Escribe tu código aquí
+console.log("\nEjercicio 17: ");
+function saludar(nombre) {
+    return "Hola, me llamo "+nombre+"!";
+}
+console.log(saludar("Antonio"));
+console.log(saludar("David"));
+console.log(saludar("Pedro"));
 
 
 //Ejercicio 18: Calcular el Área de un Rectángulo
 //Crea una función llamada calcularAreaRectangulo que tome dos parámetros (ancho y alto) y devuelva el área del rectángulo. Luego, llama a la función con diferentes valores de ancho y alto y muestra el resultado en la consola.
 
 //Escribe tu código aquí
+console.log("\nEjercicio 18: ");
+function calcularAreaRectangulo (ancho, alto) {
+    var area = ancho * alto;
+    return area;
+}
+
+console.log(calcularAreaRectangulo(3, 5));
+console.log(calcularAreaRectangulo(5, 4));
+console.log(calcularAreaRectangulo(17, 13));
